@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+
+body, html {
+    height: 100%;
+    overflow-x: hidden;
+}
+.header {
+    text-align: center;
+    font-size:24px;
+    font-family:'BenchNine';
+    box-shadow: 4px 0px 4px rgba(0,0,0,0.5);
+    z-index: 2;
+}
+.header .col-sm{
+    margin-top: 5px;
+}
+.header svg {
+    margin:0px 5px;
+    margin-bottom: 5px;
+}
+.header a{
+    color:#717171;
+}
+.header a:hover{
+    color:black;
+    text-decoration: none;
+}
+.header h1 {
+    font-size:28px;
+}
+.link1 {
+    text-align: right;
+}
+.link2{
+    text-align: left;
+}
