@@ -61,3 +61,19 @@ img {
  font-size: 18px;
 }
  }
+ @media only screen and (max-width: 500px){
+ #main p {
+  padding: 0% 2%;
+  font-size: 16px;
+ }
+ #main h3 {
+    padding: 0% 2%;
+    font-size: 20px;
+   }
+  }
+  @media only screen and (max-width: 350px){
+    #main p {
+     padding: 0% 2%;
+     font-size: 14px;
+    }
+     }
