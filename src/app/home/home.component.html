@@ -85,26 +85,14 @@
 <div id="overlay" (click)="onClick()"></div>
 <div id="main">
   <div class="row">
-    <div class="col-sm item">
+    <div class="col-sm item" *ngFor="let item of Items;index as i">
+      <a [routerLink]="['/case-study/'+i]">
       <div class="item-info">
-        <h3>Unofficial Ryerson App</h3>
-        <p>A modernized version of the ryerson university mobile app</p>
+          <h3>{{item.Item[0].Title}}</h3>
+          <p>{{item.Item[0].Desc}}</p>
+        </div>
+        <img src="{{item.Item[0].HeaderImg}}" />
+      </a>
       </div>
-      <img src="assets/images/ryerson.jpg" />
     </div>
-    <div class="col-sm item">
-      <div class="item-info">
-        <h3>Project Latte</h3>
-        <p>Java with a little extra flavour, this library attempts to make java a little easier to work with</p>
-      </div>
-      <img src="assets/images/latte.jpg" />
-    </div>
-    <div class="col-sm item">
-      <div class="item-info">
-        <h3>T6Labs - Helping hands</h3>
-        <p>An app with the goal of helping students, hobbyists and local businesses do what the love</p>
-      </div>
-      <img src="assets/images/business.jpg" />
-    </div>
-  </div>
 </div>

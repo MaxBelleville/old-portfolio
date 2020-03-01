@@ -1,17 +1,19 @@
 import { Component, OnInit } from '@angular/core';
-
+import ItemsJson from "../../assets/items.json";
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  constructor() { 
+  constructor() {
+    this.Items=ItemsJson;
   }
 
   ngOnInit() {
    
   }
+  Items:any;
   overlay:HTMLElement;
   main:HTMLElement;
   menu:HTMLElement;

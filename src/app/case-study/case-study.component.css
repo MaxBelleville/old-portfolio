@@ -1,0 +1,40 @@
+#main {
+    font-family: "Oswald";
+    font-size: 36px;
+    color: black;
+}
+#main p{
+    text-indent: 50px;
+}
+.Other {
+    margin: 5%;
+}
+.Other * {
+    margin: 5px 5% 5px 1%;
+}
+#main h1 {
+    font-family: 'Bungee';
+}
+.ImgList *{
+    margin:0;
+    margin-bottom: 1%;
+    padding:0;
+}
+.Action {
+    font-family: 'Bungee';
+    position: relative; 
+    height: 100vh;
+}
+.Action img{
+    position: absolute;
+    top:0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    filter: brightness(0.6);
+    box-shadow: 4px 0px 4px rgba(0,0,0,0.5);
+}
+.Action .Text{
+    padding: 5%;
+    color: white;
+}
