@@ -1,0 +1,121 @@
+[
+{"Item":[{"Title":"Unofficial Ryerson App",
+          "Desc":"A modernized version of the ryerson university mobile app.",
+          "HeaderImg":"assets/images/ryerson.jpg"},
+          {"CaseStudy":[{
+            "ActionTitle": "Unofficial Ryerson App",
+            "ActionDesc": "An upgrade to a Mobile App That needs one.",
+            "ActionImg":"assets/images/RUTitle.png"
+          },
+          {
+            "TextTitle":"The Goal",
+            "Text": ["  To provide a better and more modernized experience to Ryerson mobile application. The Ryerson mobile app was released in 2014 and has not had a update since 2017, it has a review score of 2.9. My goal is to fix the issues that reviewers have with the app, provide better UI/UX and overall improve the app by adding new features."]
+          },
+          {
+              "ListTitle":"TODO:",
+              "List": [["Fix 2FA, So the Remember for 30 days button works.",
+                       "Save Login on the client so you do not have to login every time."],
+                       ["Add more settings so the user has more customization.",
+                       "Remove unneeded access to things like your camera."],
+                       ["Improve loading times, lag and over all speed.",
+                       "Ability to view app offline."],
+                       ["Redo the design so it looks cleaner."]
+                    ]
+          },
+          {"ImgListTitle": "The UI:",
+            "ImgList":[["assets/images/RU1.png","assets/images/RU2.png","assets/images/RU3.png","assets/images/RU4.png"],
+            ["assets/images/RU5.png","assets/images/RU6.png","assets/images/RU7.png","assets/images/RU8.png"]]
+            },
+            {
+                "ListTitle":"What I Learned:",
+                "List": [["Gained knowledge in web scraping and reverse engineering websites to understand how they work.",
+                         "How to create android notifications and learned about android services to update notifications even when the app is closed."],
+                         ["Gained knowledge in web requests, Android retrofit and jsoup.",
+                         "Gained knowledge in cookies and how to save cookies using retrofit."],
+                         ["Gained experience in ui/ux and general problem solving.",
+                         "How to use Web Views and injecting js using a Web View."] 
+                      ]
+            }
+          ]}
+]},
+{"Item":[{"Title":"Project Latte",
+          "Desc":"Java with a little extra flavour, this library attempts to make java a little easier to work with.",
+          "HeaderImg":"assets/images/latte.jpg"},
+          {"CaseStudy":[{
+            "ActionTitle": "Project Latte",
+            "ActionDesc": "Why use plain java if you could speed up the process?",
+            "ActionImg":"assets/images/latte.jpg"
+          },
+          {
+            "TextTitle":"The Goal",
+            "Text": ["  An library that provides key features that you need in gui applications and video games and simplifies the process for building those aplications."]
+          },
+          {
+            "TextTitle":"The History",
+            "Text": ["  This project is a rivatilized version of a pet project I was working in highschool. It started initially as my attempt at a old library my high school used. It was moslty a challenge to see if one, I could implement the features found in the library for modern java. Two, see how complex it would be to implement those features and improve some issues I had with the library at the time.",
+                     "  Now part one of this task was a easier that I first believed it would a lot of the libraries features where slight modifications more old versions of modern classes like the Graphics class. Alright, so how to do improve it? That idea led me down a rabbit hole and I ended up creating a library acted sort of like a very basic game engine that handled 2d graphics, some of the video game math, audio and a few more features. I called this SimpleJava. I tried to stick to two core premises when planning the code for the library,If you add a new feature try and make it customizable and keep to the simplistic nature of the old library I was using at school.",
+                     "  The problem was that if you wanted to properly use it as intented there was a lot of bugs, the collision detection wasn't that great, the vector math was off, it was slow and overall I knew that I could improve it. So it was abandoned for something faster, more complex, more feature rich. Project Latte."]
+          },
+          {
+              "ListTitle":"TODO:",
+              "List": [["Fix 2FA, So the Remember for 30 days button works.",
+                       "Save Login on the client so you do not have to login every time."],
+                       ["Add more settings so the user has more customization.",
+                       "Remove unneeded access to things like your camera."],
+                       ["Improve loading times, lag and over all speed.",
+                       "Ability to view app offline."],
+                       ["Redo the design so it looks cleaner."]
+                    ]
+          },
+            {
+                "ListTitle":"What I Learned:",
+                "List": [["Gained knowledge in web scraping and reverse engineering websites to understand how they work.",
+                         "How to create android notifications and learned about android services to update notifications even when the app is closed."],
+                         ["Gained knowledge in web requests, Android retrofit and jsoup.",
+                         "Gained knowledge in cookies and how to save cookies using retrofit."],
+                         ["Gained experience in ui/ux and general problem solving.",
+                         "How to use Web Views and injecting js using a Web View."] 
+                      ]
+            }
+          ]}
+]},
+{"Item":[{"Title":"T6Labs - Helping hands",
+          "Desc":"An app with the goal of helping students, hobbyists and local businesses do what the love.",
+          "HeaderImg":"assets/images/business.jpg"},
+          {"CaseStudy":[{
+            "ActionTitle": "Unofficial Ryerson App",
+            "ActionDesc": "An upgrade to a Mobile App That needs one.",
+            "ActionImg":"assets/images/business.jpg"
+          },
+          {
+            "TextTitle":"The Goal",
+            "Text": ["  To provide a better and more modernized experience to Ryerson mobile application. The Ryerson mobile app was released in 2014 and has not had a update since 2017, it has a review score of 2.9. My goal is to fix the issues that reviewers have with the app, provide better UI/UX and overall improve the app by adding new features."]
+          },
+          {
+              "ListTitle":"TODO:",
+              "List": [["Fix 2FA, So the Remember for 30 days button works.",
+                       "Save Login on the client so you do not have to login every time."],
+                       ["Add more settings so the user has more customization.",
+                       "Remove unneeded access to things like your camera."],
+                       ["Improve loading times, lag and over all speed.",
+                       "Ability to view app offline."],
+                       ["Redo the design so it looks cleaner."]
+                    ]
+          },
+          {"ImgListTitle": "The UI:",
+            "ImgList":[["path1","path2","path3","path4"],
+                       ["path1","path2","path3","path4"]]
+            },
+            {
+                "ListTitle":"What I Learned:",
+                "List": [["Gained knowledge in web scraping and reverse engineering websites to understand how they work.",
+                         "How to create android notifications and learned about android services to update notifications even when the app is closed."],
+                         ["Gained knowledge in web requests, Android retrofit and jsoup.",
+                         "Gained knowledge in cookies and how to save cookies using retrofit."],
+                         ["Gained experience in ui/ux and general problem solving.",
+                         "How to use Web Views and injecting js using a Web View."] 
+                      ]
+            }
+          ]}
+]}
+]
