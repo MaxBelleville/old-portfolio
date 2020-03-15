@@ -44,7 +44,7 @@
           {"CaseStudy":[{
             "ActionTitle": "Project Latte",
             "ActionDesc": "Why use plain java if you could speed up the process?",
-            "ActionImg":"assets/images/latte.jpg"
+            "ActionImg":"assets/images/latte2.jpg"
           },
           {
             "TextTitle":"The Goal",
@@ -58,23 +58,26 @@
           },
           {
               "ListTitle":"TODO:",
-              "List": [["Fix 2FA, So the Remember for 30 days button works.",
-                       "Save Login on the client so you do not have to login every time."],
-                       ["Add more settings so the user has more customization.",
-                       "Remove unneeded access to things like your camera."],
-                       ["Improve loading times, lag and over all speed.",
-                       "Ability to view app offline."],
-                       ["Redo the design so it looks cleaner."]
+              "List": [["Setup a draw loop which the user can acces.",
+                       "Setup 'pseduo listeners' that call a functiom from user class from library."],
+                       ["Setup collision detection for any user defined shape",
+                       "Groups that hold user defined shapes"],
+                       ["Make user defined shapes rotatable and texturable.",
+                       "Make a window that the user can customize."],
+                       ["Create a simple animation framework using system time.",
+                        "Allow reading audio files, possibly implement 2d location based sound."],
+                        ["Read and save files for things like levels.",
+                          "Simplifiy swing gui and itergrate it with graphics"],
+                          ["And possibly much more..."]
                     ]
           },
             {
                 "ListTitle":"What I Learned:",
-                "List": [["Gained knowledge in web scraping and reverse engineering websites to understand how they work.",
-                         "How to create android notifications and learned about android services to update notifications even when the app is closed."],
-                         ["Gained knowledge in web requests, Android retrofit and jsoup.",
-                         "Gained knowledge in cookies and how to save cookies using retrofit."],
-                         ["Gained experience in ui/ux and general problem solving.",
-                         "How to use Web Views and injecting js using a Web View."] 
+                "List": [["Learned how to make a propper game loop using fixed timestep.",
+                         "Learned how to do collision detection using the Seperating access theorm"],
+                         ["Gained knowledge on the Method libary, key listeners, collision detection and more.",
+                         "Learned how to nicely handle sidescrolling."],
+                         ["Learned how to parse Json files in java."] 
                       ]
             }
           ]}
@@ -83,37 +86,46 @@
           "Desc":"An app with the goal of helping students, hobbyists and local businesses do what the love.",
           "HeaderImg":"assets/images/business.jpg"},
           {"CaseStudy":[{
-            "ActionTitle": "Unofficial Ryerson App",
-            "ActionDesc": "An upgrade to a Mobile App That needs one.",
-            "ActionImg":"assets/images/business.jpg"
+            "ActionTitle": "Helping hands",
+            "ActionDesc": "Kijiji but for local bussiness and freelancers.",
+            "ActionImg":"assets/images/business2.jpg"
           },
           {
             "TextTitle":"The Goal",
-            "Text": ["  To provide a better and more modernized experience to Ryerson mobile application. The Ryerson mobile app was released in 2014 and has not had a update since 2017, it has a review score of 2.9. My goal is to fix the issues that reviewers have with the app, provide better UI/UX and overall improve the app by adding new features."]
+            "Text": ["  To create an app that lists any services and bussiness that are not big names. For example if you need a baby sitter and you can not find anyone instead of paying a lot of money to a baby sitting company. You could pay for someone local who has a high rating on our app and you know."]
           },
           {
               "ListTitle":"TODO:",
-              "List": [["Fix 2FA, So the Remember for 30 days button works.",
-                       "Save Login on the client so you do not have to login every time."],
-                       ["Add more settings so the user has more customization.",
-                       "Remove unneeded access to things like your camera."],
-                       ["Improve loading times, lag and over all speed.",
-                       "Ability to view app offline."],
+              "List": [["View a list of services, filter by distance, tag and title.",
+                       "Login and create a service that will be added to the database."],
+                       ["Messaging between two parties.",
+                       "Visual representation of services near you using google maps."],
+                       ["Build backend api to handle services and messsages.",
+                       "Rating and average user rating that can be filtered by."],
                        ["Redo the design so it looks cleaner."]
                     ]
           },
+          {
+            "ListTitle":"What I did:",
+            "List": [["Created prototype designs for the app."],
+                     ["Upgraded the map page, implemented login page, description page and main page."],
+                     ["Helped coordinate group meetings."],
+                     ["Slack bot developer to help us keep track of things."]
+                  ]
+        },
           {"ImgListTitle": "The UI:",
-            "ImgList":[["path1","path2","path3","path4"],
-                       ["path1","path2","path3","path4"]]
+            "ImgList":[["assets/images/T6-1.png","assets/images/T6-2.png",
+                      "assets/images/T6-3.png","assets/images/T6-4.png"],
+                       ["assets/images/T6-5.png","assets/images/T6-6.png",
+                        "assets/images/T6-7.png","assets/images/T6-8.png"]]
             },
             {
                 "ListTitle":"What I Learned:",
-                "List": [["Gained knowledge in web scraping and reverse engineering websites to understand how they work.",
-                         "How to create android notifications and learned about android services to update notifications even when the app is closed."],
-                         ["Gained knowledge in web requests, Android retrofit and jsoup.",
-                         "Gained knowledge in cookies and how to save cookies using retrofit."],
-                         ["Gained experience in ui/ux and general problem solving.",
-                         "How to use Web Views and injecting js using a Web View."] 
+                "List": [["Learned how to to design in Adobe XD",
+                         "Gained a large amount of knowlege in backend development."],
+                         ["Learned how to develop for andriod.",
+                         "Gained knowledge in team programing."],
+                         ["Learned how to use express.js and create an API's"] 
                       ]
             }
           ]}
